@@ -1,0 +1,75 @@
+.textarea {
+    position: relative;
+    font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.textarea-target {
+    background-color: #fff;
+    resize: none;
+    margin: 0;
+    padding: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #90A4AE;
+    color: #263238;
+    border-radius: 3px;
+    overflow: hidden;
+    font: inherit;
+    outline: 0;
+    box-shadow: 0 4px 16px -8px #607D8B;
+}
+
+.textarea-target:disabled {
+    background-color: #ECEFF1;
+    color: #607D8B;
+}
+
+.textarea-target:-ms-input-placeholder {
+    color: #B0BEC5;
+}
+
+.textarea-target::placeholder {
+    color: #B0BEC5;
+}
+
+.textarea-target[data-view="hidden"] {
+    visibility: hidden;
+    -webkit-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    pointer-events: none;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.textarea-target[data-view="native"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 1;
+}
+
+.textarea-max-limit {
+    position: absolute;
+    z-index: 2;
+    bottom: 8px;
+    right: 8px;
+    pointer-events: none;
+    font-size: 10px;
+    line-height: 1;
+    letter-spacing: 1px;
+    -webkit-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    color: #607D8B;
+}
+
+.textarea-max-limit[data-invalid="true"] {
+    color: #FF7043;
+}
+
+
+/*# sourceMappingURL=main.02431488.chunk.css.map*/
