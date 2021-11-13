@@ -17,14 +17,10 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
     "tsc": "tsc",
     "lint": "eslint --fix --ext .ts,.tsx ./src",
     "check": "npm run tsc && npm run lint",
-    "storybook": "start-storybook -p 6006 -s public",
+    "start": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
     "deploy-storybook": "storybook-to-ghpages"
   },
